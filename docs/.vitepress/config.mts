@@ -19,12 +19,13 @@ export default defineConfig({
       { text: '主页', link: '/' },
       { text: '加入群聊', link: '/group' },
       { text: '绘梦云盘', link: 'http://pan.hmmc.top/' },
-      { text: '基岩版客户端下载',
+      { text: '基岩版下载',
         items: [
           { text: 'MineBBS', link: 'https://mc.minebbs.com/#/' },
           { text: '苦力怕论坛', link: 'http://mcapks.net' }
         ]
       },
+      { text: '友情链接', link: '/link' }
     ],
     sidebar: [
       {
@@ -79,7 +80,7 @@ export default defineConfig({
       }
     ],
     socialLinks: [
-      { icon: 'github', link: 'https://gitee.com/HMMCDEV/HMMCDEV' }
+      { icon: 'github', link: 'https://github.com/HMMCDEV/Docs' }
     ],
     footer: {
       message: '绘梦我的世界',
