@@ -8,15 +8,15 @@ export default defineConfig({
     // https://vitepress.dev/reference/default-theme-config
     nav: [
       { text: '主页', link: '/' },
-      { text: '加入群聊', link: '/' }
+      { text: '加入群聊', link: '/加入群聊' }
     ],
 
     sidebar: [
       {
         text: '服务器',
         items: [
-          { text: '服务器状态', link: '/motd' },
-          { text: '服务器信息', link: '/' }
+          { text: '服务器状态', link: '/服务器状态' },
+          { text: '服务器信息', link: '/服务器信息' }
         ]
       }
     ],
