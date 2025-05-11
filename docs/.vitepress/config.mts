@@ -15,7 +15,7 @@ export default defineConfig({
       {
         text: '服务器',
         items: [
-          { text: '服务器状态', link: '/服务器状态' },
+          { text: '服务器状态', link: '/motd' },
           { text: '服务器信息', link: '/服务器信息' }
         ]
       }

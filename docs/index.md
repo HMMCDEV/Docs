@@ -12,7 +12,7 @@ hero:
       link: /README
     - theme: alt
       text: 服务器状态
-      link: /服务器状态
+      link: /motd
 
 features:
   - title: 稳定
