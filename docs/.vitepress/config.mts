@@ -13,10 +13,13 @@ export default defineConfig({
 
     sidebar: [
       {
-        text: '服务器',
+        text: '绘梦我的世界' ,
         items: [
           { text: '服务器状态', link: '/motd' },
-          { text: '服务器信息', link: '/服务器信息' }
+          { text: '子服概览' ,
+                items: [
+                        {text: "基岩版",link: '/基岩版'},
+                        {text: "Java版",link: '/Java版'}]}
         ]
       }
     ],
